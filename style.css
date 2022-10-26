@@ -1,0 +1,125 @@
+html,body {
+	font-family: sans-serif;
+	font-weight: 200;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.g-header {
+	text-align: center;
+	margin: 0;
+	padding:  50px 0;
+}
+
+h1, h3 {
+	margin:  0;
+}
+
+h1 {
+	font-family: Oswald, sans-serif;
+	margin-bottom: 10px;
+}
+
+.g-header h3 {
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+.g-intro {
+	max-width: 400px;
+	margin: 15px auto;
+	line-height: 1.3;
+	font-size: 14px;
+}
+
+.g-header-hed img {
+	max-width: 60px;
+}
+
+a, a:visited {
+	color:  #999;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;	
+}
+
+.g-portfolio {
+	max-width: 300px;
+	margin:  0 auto;
+}
+
+.g-portfolio-box {
+	text-align: center;
+	width: 100%;
+	max-width: 300px;
+	display: inline-block;
+	vertical-align:  top;
+	margin: 0 auto 50px auto;
+}
+
+@media screen and (min-width: 600px) {
+	.g-portfolio {
+		max-width: 900px;
+
+	}
+
+	.g-portfolio-box {
+		width: calc(33.33333% - 23px);
+		margin: 0 30px 50px auto;
+	}
+
+	.g-portfolio-box:nth-child(3n) {
+		margin-right: 0;
+	}
+
+}
+
+.g-img {
+	max-width: 300px;
+	margin: 0 auto;
+	border:  10px solid #fff;
+	box-shadow:  3px 3px 3px rgba(0,0,0,0.2), 0px 0px 10px rgba(0,0,0,0.1);
+
+}
+
+.g-img-inner {
+	padding-bottom: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: relative;
+}
+
+.g-title {
+	/*font-family: Oswald;*/
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.g-text {
+	margin: 5px auto;
+	font-size: 13px;
+	line-height: 1.3;
+}
+
+.g-footer {
+	margin:  200px auto 100px auto;
+	text-align: center;
+	font-size: 10px;
+}
+
+.g-org {
+	font-size: 12px;
+	margin:  5px 0;
+	font-style: italic;
+	color: #999;
+}
+
+video {
+	height: 100%;
+	position: absolute;
+	top:  0;
+	left: 0;
+}
